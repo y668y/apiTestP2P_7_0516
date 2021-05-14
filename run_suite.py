@@ -17,7 +17,8 @@ suite.addTest(unittest.makeSuite(test_tender_process))
 
 
 # report_file= BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%D-%H%M%S"))
-report_file= BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+#report_file= BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S")) 只在没用jenkins时才能这样写，用了jenkins的report名称就要固定，不能不断变化
+report_file= BASE_DIR + "/report/report.html"
 print(report_file)
 
 with open(report_file,"wb") as f:
