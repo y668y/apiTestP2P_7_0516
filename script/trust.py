@@ -9,7 +9,7 @@ from utils import assert_utils, third_request_api
 from bs4 import BeautifulSoup
 
 
-class trust(unittest.TestCase):
+class Trust(unittest.TestCase):
     def setUp(self):
         self.login_api=loginAPI()
         self.trust_api=trustAPI()

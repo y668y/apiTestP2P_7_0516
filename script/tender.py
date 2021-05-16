@@ -8,7 +8,7 @@ from api.tenderAPI import tenderAPI
 from utils import assert_utils, third_request_api
 
 
-class tender(unittest.TestCase):
+class Tender(unittest.TestCase):
     def setUp(self):
         self.login_api=loginAPI()
         self.tender_api=tenderAPI()
