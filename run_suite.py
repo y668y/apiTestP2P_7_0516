@@ -3,7 +3,7 @@ import app
 from lib.HTMLTestRunner_PY3 import HTMLTestRunner
 from script.trust import Trust
 from script.tender import Tender
-# from script import Tr
+# from script import Trust
 from script.approve import Approve
 from script.login_params import Login
 import time
